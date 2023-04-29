@@ -7,12 +7,8 @@ from app.utils import output_response
 if __name__ == "__main__":
 
     source = WebDataExtractor(
-        root_url="https://reldyn.co",
-        urls=[
-            "https://buy.experian.com.my/index.php/search/Malaysia-Company/1359116/RELDYN-TECH-SDN.-BHD.",
-            "https://newday.jobs/job-in-myanmar/junior-senior-ios-guru-developer/70949",
-            "https://www.tofler.in/reldyn-tech-private-limited/company/U72900PN2022FTC217062"
-        ]
+        root_url="https://docs.e2enetworks.com/",
+       
     )
     assistant = WebChatAssistant(source)
     init_conversation = False
